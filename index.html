@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plant Growth Investigation: How much fertilizer is enough?</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="top">
+  <div><h1>PLANT GROWTH INVESTIGATION</h1><p class="sub">How much fertilizer is enough?</p></div>
+  <nav id="util" aria-label="Lab tools">
+    <button type="button" data-u="code">Experiment code</button>
+    <button type="button" data-u="treat">View treatments</button>
+    <button type="button" data-u="map">View greenhouse map</button>
+    <button type="button" data-u="guide">Measurement guide</button>
+    <button type="button" data-u="wrong">Something went wrong</button>
+    <button type="button" data-u="a11y">Accessibility options</button>
+  </nav>
+</header>
+<nav id="weeks" aria-label="Experiment progress"></nav>
+<main id="main" tabindex="-1"></main>
+<div id="live" class="sr" role="status" aria-live="polite"></div>
+<dialog id="dlg" aria-labelledby="dlg-t"><div class="dlg-in"><h2 id="dlg-t"></h2><div id="dlg-b"></div><button type="button" id="dlg-x" class="primary">Close</button></div></dialog>
+<div id="inst"></div>
+<script src="app.js"></script>
+</body>
+</html>
